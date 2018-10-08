@@ -1,5 +1,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Thor's EPF Website</title>
 <style>
 .navbar {
     overflow: hidden;
@@ -69,37 +70,37 @@
 <div class="navbar">
   <a href="index.html">Home</a>
   <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">Career
+    <button class="dropbtn" onclick="document.getElementById('careerDropdown').classList.toggle('show');">Career
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="career/career.html">Career</a>
-      <a href="career/college.html">College</a>
-      <a href="career/saving.html">Saving</a>
+    <div class="dropdown-content" id="careerDropdown">
+      <a href="career.html">Career</a>
+      <a href="career-college.html">College</a>
+      <a href="career-saving.html">Saving</a>
     </div>
   </div>
   <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">Banking
+    <button class="dropbtn" onclick="document.getElementById('bankDropdown').classList.toggle('show');">Banking
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="banking/banking.html">Banking</a>
-      <a href="banking/checking.html">Checking</a>
-      <a href="banking/saving.html">Saving</a>
+    <div class="dropdown-content" id="bankDropdown">
+      <a href="banking.html">Banking</a>
+      <a href="banking-checking.html">Checking</a>
+      <a href="banking-saving.html">Saving</a>
     </div>
   </div>
   <a href="credit.html">Credit</a>
   <a href="budgeting.html">Budgeting</a>
   <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">Investing
+    <button class="dropbtn" onclick="document.getElementById('investDropdown').classList.toggle('show');">Investing
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="investing/investing.html">Investing</a>
-      <a href="investing/compound_interest.html">Compound Interest</a>
-      <a href="investing/stock_market.html">Stock Market</a>
-      <a href="investing/bonds.html">Bonds</a>
-      <a href="inevsting/retirement.html">Retirement</a>
+    <div class="dropdown-content" id="investDropdown">
+      <a href="investing.html">Investing</a>
+      <a href="investing-compound_interest.html">Compound Interest</a>
+      <a href="investing-stock_market.html">Stock Market</a>
+      <a href="investing-bonds.html">Bonds</a>
+      <a href="inevsting-retirement.html">Retirement</a>
     </div>
   </div>
   <a href="taxes.html">Taxes</a>
@@ -107,20 +108,3 @@
   <a href="financial_pitfalls.html">Financial Pitfalls</a>
   <a href="cites.html">Cites/Credits</a>
 </div>
-<script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-  }
-}
-</script>
