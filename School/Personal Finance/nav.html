@@ -1,0 +1,113 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Thor's EPF Website</title>
+<head>
+
+</head>
+<style>
+.navbar {
+    font-size: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: visible;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: auto;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+</style>
+
+<div class="navbar">
+  <a href="https://ThorGuy.github.io/index.html">Site Home</a>
+  <a href="index.html">Personal Finance Home</a>
+  <div class="dropdown">
+    <button class="dropbtn" onmouseover="document.getElementById('careerDropdown').style.display='block';" onmouseout="document.getElementById('careerDropdown').style.display='none';">Career
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="careerDropdown" onmouseover="document.getElementById('careerDropdown').style.display='block';" onmouseout="document.getElementById('careerDropdown').style.display='none';">
+      <a href="career.html">Career</a>
+      <a href="career-college.html">College</a>
+      <a href="career-saving.html">Saving</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" onmouseover="document.getElementById('bankDropdown').style.display='block';" onmouseout="document.getElementById('bankDropdown').style.display='none';">Banking
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="bankDropdown" onmouseover="document.getElementById('bankDropdown').style.display='block';" onmouseout="document.getElementById('bankDropdown').style.display='none';">
+      <a href="banking.html">Banking</a>
+      <a href="banking-checking.html">Checking</a>
+      <a href="banking-saving.html">Saving</a>
+    </div>
+  </div>
+  <a href="credit.html">Credit</a>
+  <a href="budgeting.html">Budgeting</a>
+  <div class="dropdown">
+    <button class="dropbtn" onmouseover="document.getElementById('investDropdown').style.display='block';" onmouseout="document.getElementById('investDropdown').style.display='none';">Investing
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="investDropdown" onmouseover="document.getElementById('investDropdown').style.display='block';" onmouseout="document.getElementById('investDropdown').style.display='none';">
+      <a href="investing.html">Investing</a>
+      <a href="investing-compound_interest.html">Compound Interest</a>
+      <a href="investing-stock_market.html">Stock Market</a>
+      <a href="investing-bonds.html">Bonds</a>
+      <a href="inevsting-retirement.html">Retirement</a>
+    </div>
+  </div>
+  <a href="taxes.html">Taxes</a>
+  <a href="insurance.html">Insurance</a>
+  <a href="financial_pitfalls.html">Financial Pitfalls</a>
+  <a href="cites.html">Cites/Credits</a>
+</div>
