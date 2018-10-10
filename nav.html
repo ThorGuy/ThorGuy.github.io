@@ -6,7 +6,11 @@
 </head>
 <style>
 .navbar {
-    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: visible;
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -47,7 +51,7 @@
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: auto;
 }
 
 .dropdown-content a {
@@ -62,29 +66,25 @@
 .dropdown-content a:hover {
     background-color: #ddd;
 }
-
-.show {
-    display: block;
-}
 </style>
 
 <div class="navbar">
   <a href="index.html">Home</a>
   <div class="dropdown">
-    <button class="dropbtn" onclick="document.getElementById('careerDropdown').classList.toggle('show');">Career
+    <button class="dropbtn" onmouseover="document.getElementById('careerDropdown').style.display='block';" onmouseout="document.getElementById('careerDropdown').style.display='none';">Career
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content" id="careerDropdown">
+    <div class="dropdown-content" id="careerDropdown" onmouseover="document.getElementById('careerDropdown').style.display='block';" onmouseout="document.getElementById('careerDropdown').style.display='none';">
       <a href="career.html">Career</a>
       <a href="career-college.html">College</a>
       <a href="career-saving.html">Saving</a>
     </div>
   </div>
   <div class="dropdown">
-    <button class="dropbtn" onclick="document.getElementById('bankDropdown').classList.toggle('show');">Banking
+    <button class="dropbtn" onmouseover="document.getElementById('bankDropdown').style.display='block';" onmouseout="document.getElementById('bankDropdown').style.display='none';">Banking
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content" id="bankDropdown">
+    <div class="dropdown-content" id="bankDropdown" onmouseover="document.getElementById('bankDropdown').style.display='block';" onmouseout="document.getElementById('bankDropdown').style.display='none';">
       <a href="banking.html">Banking</a>
       <a href="banking-checking.html">Checking</a>
       <a href="banking-saving.html">Saving</a>
@@ -93,10 +93,10 @@
   <a href="credit.html">Credit</a>
   <a href="budgeting.html">Budgeting</a>
   <div class="dropdown">
-    <button class="dropbtn" onclick="document.getElementById('investDropdown').classList.toggle('show');">Investing
+    <button class="dropbtn" onmouseover="document.getElementById('investDropdown').style.display='block';" onmouseout="document.getElementById('investDropdown').style.display='none';">Investing
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content" id="investDropdown">
+    <div class="dropdown-content" id="investDropdown" onmouseover="document.getElementById('investDropdown').style.display='block';" onmouseout="document.getElementById('investDropdown').style.display='none';">
       <a href="investing.html">Investing</a>
       <a href="investing-compound_interest.html">Compound Interest</a>
       <a href="investing-stock_market.html">Stock Market</a>
