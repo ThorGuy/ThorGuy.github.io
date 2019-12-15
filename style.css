@@ -1,0 +1,43 @@
+body{
+    border: 20px groove red;
+    padding: 30px;
+    margin: 50px;
+
+
+    font-family:comic sans ms;
+    font-size:350%;
+
+
+    color:#00a;
+    text-shadow:1px 1px #f00;
+
+
+    background-image: url("background.jpg");
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+p{
+    border: 10px groove blue;
+    padding: 30px;
+    margin:50px;
+    background: #0007;
+    color:#0ff;
+}
+marquee{
+    text-align:center;
+    color:#0f0;
+    position:50%
+}
+a{
+    color:red;
+    font-family:courier new;
+    font-size:50%;
+}
+li{
+    color:#0f0;
+    text-shadow:3px 2px #fffa;
+    background-color: #000a;
+    border: 10px dotted yellow;
+    margin:50px;
+    padding: 30px;
+}
