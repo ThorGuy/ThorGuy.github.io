@@ -1,5 +1,6 @@
 body{
-    border: 20px groove red;
+    border: 20px red;
+    border-style: dotted dashed;
     padding: 30px;
     margin: 50px;
 
@@ -8,35 +9,35 @@ body{
     font-size:350%;
 
 
-    color:#00a;
+    color:#fff;
     text-shadow:1px 1px #f00;
 
 
-    background-image: url("background.jpg");
-    background-size:100% 100%;
+    background: url("background.png"), #0f0;
+    background-size:15% 15%;
     background-attachment:fixed;
 }
 p{
-    border: 10px groove blue;
+    border: 3px #00f;
+    border-style: dotted;
     padding: 30px;
     margin:50px;
-    background: #0007;
+    background: #ff0;
     color:#0ff;
 }
 marquee{
     text-align:center;
-    color:#0f0;
-    position:50%
+    position:50%;
 }
 a{
     color:red;
     font-family:courier new;
     font-size:50%;
 }
-li{
+h5{
     color:#0f0;
     text-shadow:3px 2px #fffa;
-    background-color: #000a;
+    background-color: #00f;
     border: 10px dotted yellow;
     margin:50px;
     padding: 30px;
