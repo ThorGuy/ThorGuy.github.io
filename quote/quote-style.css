@@ -13,7 +13,7 @@ body{
     text-shadow:1px 1px #f00;
 
 
-    background: url("background.png"), #0f0;
+    background: url("quote-background.png"), #0f0;
     background-size:15% 15%;
     background-attachment:fixed;
 }
