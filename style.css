@@ -1,0 +1,28 @@
+body{
+	background: #1e2028;
+	font-family: 'Roberto Mono', monospace;
+	color: #bbb;
+	position: relative;
+}
+li{
+	padding:0 1cm;
+}
+
+.header{
+	text-align:center;
+	padding:2cm;
+}
+
+.about,
+.work,
+.projects{
+	padding:2cm 10cm;
+}
+
+.project{
+	padding:10px 2cm 30px;
+}
+
+.navbar{
+	position:fixed;
+}
