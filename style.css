@@ -14,13 +14,35 @@ li{
 }
 
 .about,
-.work,
+.contact,
+.work{
+	padding:1cm 10cm;
+}
+
+.about > p,
+.contact > p,
+.work > p {
+	padding: 0 20px;
+}
+
+
 .projects{
-	padding:2cm 10cm;
+	padding:3cm 10cm;
 }
 
 .project{
-	padding:10px 2cm 30px;
+	padding:0 0 2cm;
+	width: 100%;
+	position: relative;
+	display: flex;
+	margin: 0;
+}
+.project > div{
+	padding:0 20px;
+}
+
+.project > img{
+	height: 10cm;
 }
 
 .navbar{
