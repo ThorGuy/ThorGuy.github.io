@@ -1,3 +1,13 @@
+.content {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 60em;
+	font-size: 14pt;
+}
+
+
+
+
 body{
 	background: #1e2028;
 	font-family: 'Roberto Mono', monospace;
@@ -10,8 +20,7 @@ li{
 
 .header{
 	text-align:center;
-	margin:10em 20em;
-	padding:2em;
+	padding:6em;
 	width:page-width;
 }
 
@@ -67,20 +76,10 @@ li{
 	to{ background: #bbb0;}
 }
 
-.about,
-.contact{
-	padding:4em 20em;
-}
-
 .about > p,
 .contact > p,
 .work > p {
 	margin: 0 20px;
-}
-
-
-.projects{
-	padding:6em 20em;
 }
 
 .project{
@@ -101,5 +100,5 @@ li{
 
 
 .padding{
-	padding:15em;
+	padding:5em;
 }
